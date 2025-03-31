@@ -1,17 +1,54 @@
-.carousel {
+/* Contenedor principal del carrusel */
+.carousel-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Carril horizontal */
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Cada slide */
+.carousel-slide {
+  min-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
-  overflow: hidden;
-  margin: 2rem auto;
-  max-width: 600px;
 }
 
-.carousel-img {
+/* Imagen adaptativa */
+.carousel-slide img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  height: auto;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 12px;
 }
+
+/* Indicadores tipo Instagram */
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 8px;
+}
+
+.indicator-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.indicator-dot.active {
+  background-color: #000;
+}
+

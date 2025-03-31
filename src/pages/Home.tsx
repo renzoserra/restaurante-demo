@@ -1,9 +1,11 @@
 import Carousel from '../components/Carousel'
+import '../styles/globals.css'
+
 
 export default function Home() {
   return (
-<div className="max-w-4xl mx-auto px-4">
+  <div className="carousel-section">
   <Carousel />
-</div>
+  </div>
   )
 }
