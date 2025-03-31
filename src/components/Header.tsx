@@ -26,6 +26,7 @@ export default function Header() {
         <p className="descripcion">
           La tradición milenaria de la cocina japonesa se encuentra con la intensidad y el alma de la gastronomía peruana.
         </p>
+        <a href="#menu" className="btn-carta">Nuestra Carta</a> {/* <-- este es el nuevo botón */}
       </div>
     </header>
   );

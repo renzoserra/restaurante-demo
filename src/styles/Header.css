@@ -129,3 +129,23 @@
     width: auto;
   }
 }
+.btn-carta {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: rgba(255, 255, 255, 0.15); /* translúcido */
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: 1px solid white;
+  border-radius: 8px;
+  backdrop-filter: blur(5px); /* efecto cristal */
+  transition: all 0.3s ease;
+}
+
+.btn-carta:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  transform: scale(1.05);
+}
+
