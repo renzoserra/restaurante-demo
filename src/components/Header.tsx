@@ -1,10 +1,15 @@
 import '../styles/Header.css';
+import headerImg from '../../public/assets/header-bg.jpg';
+import logo from '../../public/assets/logo.png';
+
+
+
 
 export default function Header() {
   return (
     <header className="header">
-      <img src="/assets/header-bg.jpg" alt="Fondo" className="background-img" />
-      <img src="/assets/logo.png" alt="Logo restaurante" className="logo-bottom" />
+      <img src={headerImg} alt="Fondo" className="background-img" />
+      <img src={logo} alt="Logo restaurante" className="logo-bottom" />
 
       <div className="social-links">
         <a href="https://www.facebook.com/profile.php?id=61574581586995"
