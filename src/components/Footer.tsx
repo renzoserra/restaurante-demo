@@ -1,4 +1,5 @@
 import '../styles/Footer.css'
+import logo from '../../public/assets/logo.png';
 
 export default function Footer() {
   return (
@@ -42,7 +43,7 @@ export default function Footer() {
 
       {/* Sección inferior con logo y redes */}
       <div className="footer-bottom">
-        <img src="/assets/logo.png" alt="Logo" className="footer-logo" />
+        <img src={logo} alt="Logo" className="footer-logo" />
         <p className="footer-copy">
           © Todos los derechos reservados. Diseñado por Renzo Serra.
         </p>

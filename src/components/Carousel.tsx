@@ -1,13 +1,13 @@
 import '../styles/Carousel.css'
 import { useEffect, useRef, useState } from 'react'
+import plato1 from '../../public/assets/carruselPhotos/plato1.jpg'
+import plato2 from '../../public/assets/carruselPhotos/plato2.jpg'
+import plato3 from '../../public/assets/carruselPhotos/plato3.jpg'
+import plato4 from '../../public/assets/carruselPhotos/plato4.jpg'
 
-const images = [
-  '/assets/carruselPhotos/plato1.jpg',
-  '/assets/carruselPhotos/plato2.jpg',
-  '/assets/carruselPhotos/plato3.jpg',
-  '/assets/carruselPhotos/plato4.jpg'
+const images = [plato1, plato2, plato3, plato4
+      // Puedes seguir agregando más imágenes aquí
 
-    // Puedes seguir agregando más imágenes aquí
 ]
 
 export default function Carousel() {
