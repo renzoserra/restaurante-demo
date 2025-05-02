@@ -1,8 +1,8 @@
 import '../styles/Header.css';
 
-import iconFB from '../../public/assets/icon-fb.png';
-import iconIG from '../../public/assets//icon-ig.png';
-import logo from '../../public/assets/logo.png';
+import iconFB from '../../public/assets/icon-fb.webp';
+import iconIG from '../../public/assets//icon-ig.webp';
+import logo from '../../public/assets/logo.webp';
 
 
 

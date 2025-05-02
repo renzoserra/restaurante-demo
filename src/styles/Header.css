@@ -1,7 +1,10 @@
 .header {
   position: relative;
   height: 100vh;
-  background-image: url('/assets/bg-header.png');
+  background-image: image-set(
+    url('/assets/bg-header.webp') type("image/webp"),
+    url('/assets/bg-header.png') type("image/png")
+  );
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -105,7 +108,10 @@
 /* Responsivo */
 @media (max-width: 768px) {
   .header {
-    background-image: url('/assets/bg-mobile.png');
+    background-image: image-set(
+      url('/assets/bg-mobile.webp') type("image/webp"),
+      url('/assets/bg-mobile.png') type("image/png")
+    )
   }
 
   .logo-top-left {

@@ -34,7 +34,7 @@ export default function Carousel() {
       <div className="carousel-track" ref={trackRef}>
         {images.map((src, i) => (
           <div className="carousel-slide" key={i}>
-            <img src={src} alt={`Plato ${i + 1}`} />
+            <img src={src} alt={`Plato ${i + 1}`} loading="lazy"/>
           </div>
         ))}
       </div>
