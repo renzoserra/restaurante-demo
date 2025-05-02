@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "homepage": "https://github.com/renzoserra/restaurante-demo",
   "scripts": {
+    "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist -b gh-pages"
