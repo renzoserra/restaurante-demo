@@ -24,16 +24,16 @@
 }
 
 /* Logo */
-.logo-bottom {
+.logo-top-left {
   position: absolute;
-  bottom: 20px;
+  top: 20px;
   left: 20px;
-  height: 120px;
-  z-index: 2;
+  height: 130px;
+  z-index: 10;
   transition: transform 0.3s ease;
 }
 
-.logo-bottom:hover {
+.logo-top-left:hover {
   transform: scale(1.05);
 }
 
@@ -108,9 +108,9 @@
     background-image: url('/assets/bg-mobile.png');
   }
 
-  .logo-bottom {
-    height: 80px;
-    bottom: 15px;
+  .logo-top-left {
+    height: 90px;
+    top: 15px;
     left: 15px;
   }
 

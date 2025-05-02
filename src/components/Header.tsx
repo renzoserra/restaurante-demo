@@ -10,7 +10,7 @@ import logo from '../../public/assets/logo.png';
 export default function Header() {
   return (
     <header className="header">
-      <img src={logo} alt="Logo restaurante" className="logo-bottom" />
+      <img src={logo} alt="Logo restaurante" className="logo-top-left" />
 
       <div className="social-icons">
       <a href="https://www.facebook.com/profile.php?id=61574581586995" target="_blank" rel="noreferrer">
