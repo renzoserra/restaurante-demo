@@ -1,9 +1,12 @@
 .footer {
-    background: transparent;
-    color: white;
-    padding: 2rem 1rem;
-    text-align: center;
-  }
+  background: transparent;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.9rem; /* Aumenta un poco el tamaño base */
+  line-height: 1.8; /* Mejora legibilidad */
+}
   
   .footer-top {
     display: flex;
@@ -16,10 +19,21 @@
     flex: 1 1 250px;
     margin: 1rem;
   }
+
+  .footer p,
+.footer a {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 800;
+  font-size: 1.6rem;
+  color: #eee;
+}
   
-  .footer-col h4 {
-    font-weight: bold;
+  .footer h4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.0rem;
+    font-weight: 900;
     margin-bottom: 0.5rem;
+    color: white;
   }
   
   .footer-logo {
@@ -30,18 +44,23 @@
   
   
   .footer-copy {
-    font-size: 0.875rem;
-    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #ddd;
   }
   
   .footer-socials a {
-    color: #ccc;
-    text-decoration: none;
-    margin: 0 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #ddd;
+    transition: color 0.3s ease;
   }
   
   .footer-socials a:hover {
     color: white;
+  }
+  .footer-socials a:hover {
+    color: #fff;
   }
   .footer-link {
     color: #ddd;

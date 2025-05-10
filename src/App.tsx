@@ -9,10 +9,17 @@ import './styles/globals.css'
 function App() {
   return (
     <>
-      <div className="app-background">
-      <Header />
-
-      </div>
+<div className="app-background">
+<section className="section-carousel">
+  <Header />
+  </section>
+  <section className="section-carousel">
+  <Carousel />
+  </section>
+  <section className=".section-footer">
+  <Footer />
+  </section>
+</div>
     </>
   )
 }

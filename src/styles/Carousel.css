@@ -1,13 +1,15 @@
 /* Contenedor principal del carrusel */
 .carousel-container {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; /* Ajusta a toda la sección */
+  overflow: hidden; /* 🔥 Clave para ocultar las imágenes laterales */
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Ocupa alto completo */
-  padding: 2rem;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  box-sizing:border-box;
 }
 
 .carousel-inner {
@@ -22,6 +24,7 @@
 .carousel-track {
   display: flex;
   transition: transform 0.5s ease-in-out;
+  width: 100%; /* Asegura que ocupe todo */
 }
 
 /* Cada slide */
@@ -68,7 +71,6 @@
   .carousel-container {
     background-position: center center;
     background-size: contain;
-    background-color: #e9d1a7; /* respaldo si no se ve la imagen */
     padding: 1rem;
   }
 
@@ -76,4 +78,46 @@
     max-width: 100%;
     padding: 1rem;
   }
+}
+
+
+
+.carousel-image-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 400px; /* o el tamaño que uses */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5); /* semitransparente */
+  color: white;
+  padding: 0.5rem 1rem;
+  width: 90%;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Mostrar al hacer hover (desktop) */
+.carousel-image-wrapper:hover .carousel-caption {
+  opacity: 1;
+}
+
+/* Mostrar al hacer clic (mobile) */
+.carousel-image-wrapper:focus-within .carousel-caption {
+  opacity: 1;
 }

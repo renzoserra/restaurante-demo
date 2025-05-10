@@ -32,12 +32,12 @@ export default function Footer() {
 
         <div className="footer-col">
           <h4>Horario:</h4>
-          <p>Lunes a Sábado: 12:30 HRS – 23:00 HRS</p>
-          <p>Domingo: 12:30 HRS – 17:00 HRS</p>
+          <p>Lunes a Sábado: 12:30 Hrs – 23:00 Hrs</p>
+          <p>Domingo: 12:30 Hrs – 17:00 Hrs</p>
         </div>
         <div className="footer-col">
           <h4>Contáctanos</h4>
-          <p>(34) 2 xxxx xxxx</p>
+          <p>(+56) 9 8497 5508</p>
         </div>
       </div>
 
