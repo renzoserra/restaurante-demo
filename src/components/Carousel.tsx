@@ -30,25 +30,26 @@ export default function Carousel() {
   }, [index])
 
   return (
-    <div className="carousel-container">
-      <div className="carousel-track" ref={trackRef}>
-        {images.map((src, i) => (
-          <div className="carousel-slide" key={i}>
-            <img src={src} alt={`Plato ${i + 1}`} loading="lazy"/>
-          </div>
-        ))}
+    <section className="carousel-background">
+      <div className="carousel-container">
+        <div className="carousel-track" ref={trackRef}>
+          {images.map((src, i) => (
+            <div className="carousel-slide" key={i}>
+              <img src={src} alt={`Plato ${i + 1}`} loading="lazy" />
+            </div>
+          ))}
+        </div>
+  
+        <div className="carousel-indicators">
+          {images.map((_, i) => (
+            <button
+              key={i}
+              className={`indicator-dot ${index === i ? 'active' : ''}`}
+              onClick={() => setIndex(i)}
+            ></button>
+          ))}
+        </div>
       </div>
-
-      {/* Indicadores tipo Instagram */}
-      <div className="carousel-indicators">
-        {images.map((_, i) => (
-          <button
-            key={i}
-            className={`indicator-dot ${index === i ? 'active' : ''}`}
-            onClick={() => setIndex(i)}
-          ></button>
-        ))}
-      </div>
-    </div>
-  )
+    </section>
+  );
 }

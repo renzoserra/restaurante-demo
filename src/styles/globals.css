@@ -1,5 +1,28 @@
-.carousel-section {
-    background-color: #292323be;
-    padding: 2rem 0;
+.app-background {
+  background-image: url('/assets/bg-koi-side-desktop.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .app-background {
+    background-image: url('/assets/bg-koi-side-mobile.webp'); /* imagen optimizada mobile */
+    background-size: cover;
+    background-position: center;
   }
-  
+}
+.app-background {
+  position: relative;
+  z-index: 0;
+}
+
+.app-background::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.25); /* ajusta aquí la intensidad */
+  z-index: -1;
+  pointer-events: none;
+}
