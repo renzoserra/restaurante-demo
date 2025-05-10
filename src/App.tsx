@@ -10,7 +10,7 @@ function App() {
   return (
     <>
 <div className="app-background">
-<section className="section-carousel">
+<section className="section-header">
   <Header />
   </section>
   <section className="section-carousel">

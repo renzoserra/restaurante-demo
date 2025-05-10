@@ -24,8 +24,10 @@
 .carousel-track {
   display: flex;
   transition: transform 0.5s ease-in-out;
-  width: 100%; /* Asegura que ocupe todo */
+  width: 100%;
+  touch-action: pan-y; /* permite deslizamiento horizontal */
 }
+
 
 /* Cada slide */
 .carousel-slide {

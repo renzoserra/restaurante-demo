@@ -5,8 +5,6 @@ import plato2 from '../../public/assets/carruselPhotos/plato2.jpg'
 import plato3 from '../../public/assets/carruselPhotos/plato3.jpg'
 import plato4 from '../../public/assets/carruselPhotos/plato4.jpg'
 
-// Puedes seguir agregando más imágenes aquí
-// const images = [plato1, plato2, plato3, plato4]
 const images = [
   {
     src: plato1,
@@ -44,15 +42,48 @@ export default function Carousel() {
 
   // Cuando cambia el índice, desplazamos el track
   useEffect(() => {
-    if (trackRef.current) {
-      trackRef.current.style.transform = `translateX(-${index * 100}%)`
-    }
-  }, [index])
+    const track = trackRef.current;
+    if (!track) return;
+  
+    let startX: number | null = null;
+  
+    const handleTouchStart = (e: TouchEvent) => {
+      startX = e.touches[0].clientX;
+    };
+  
+    const handleTouchEnd = (e: TouchEvent) => {
+      if (startX === null) return;
+  
+      const endX = e.changedTouches[0].clientX;
+      const diff = startX - endX;
+  
+      if (Math.abs(diff) > 50) {
+        if (diff > 0) {
+          // swipe izquierda
+          setIndex((prev) => (prev + 1) % images.length);
+        } else {
+          // swipe derecha
+          setIndex((prev) => (prev - 1 + images.length) % images.length);
+        }
+      }
+      startX = null;
+    };
+  
+    track.addEventListener('touchstart', handleTouchStart);
+    track.addEventListener('touchend', handleTouchEnd);
+  
+    return () => {
+      track.removeEventListener('touchstart', handleTouchStart);
+      track.removeEventListener('touchend', handleTouchEnd);
+    };
+  }, [images.length]);
+  
 
   return (
     <section className="carousel-section">
       <div className="carousel-container">
-        <div className="carousel-track" ref={trackRef}>
+        <div className="carousel-track"  ref={trackRef}
+  style={{ transform: `translateX(-${index * 100}%)` }}>
           {images.map((img, index) => (
             <div className="carousel-slide" key={index}>
               <div className="carousel-image-wrapper">
