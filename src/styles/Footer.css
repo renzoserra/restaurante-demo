@@ -23,7 +23,7 @@
   .footer p,
 .footer a {
   font-family: 'Cormorant Garamond', serif;
-  font-weight: 800;
+  font-weight: 500;
   font-size: 1.6rem;
   color: #eee;
 }
@@ -31,7 +31,7 @@
   .footer h4 {
     font-family: 'Cormorant Garamond', serif;
     font-size: 2.0rem;
-    font-weight: 900;
+    font-weight: 500;
     margin-bottom: 0.5rem;
     color: white;
   }
@@ -51,7 +51,7 @@
   
   .footer-socials a {
     font-size: 1.4rem;
-    font-weight: 800;
+    font-weight: 500;
     color: #ddd;
     transition: color 0.3s ease;
   }
