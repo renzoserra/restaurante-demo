@@ -1,28 +1,26 @@
 import '../styles/Carousel.css'
 import { useEffect, useRef, useState } from 'react'
-import plato1 from '../../public/assets/carruselPhotos/AcevichadoMaki.webp'
-import plato2 from '../../public/assets/carruselPhotos/CamaronesTempura.webp'
-import plato3 from '../../public/assets/carruselPhotos/Costillarbbq.webp'
-import plato4 from '../../public/assets/carruselPhotos/AlitasBufalo.webp'
-import plato5 from '../../public/assets/carruselPhotos/FuriMaki.webp'
-import plato6 from '../../public/assets/carruselPhotos/TartarSalmon.webp'
-import plato7 from '../../public/assets/carruselPhotos/TiradoSalmon.webp'
-import plato8 from '../../public/assets/carruselPhotos/yakimeshi.webp'
-import plato9 from '../../public/assets/carruselPhotos/YakiSoba.webp'
-import plato10 from '../../public/assets/carruselPhotos/YasaitamePollo.webp'
+import plato1 from '../../public/assets/carruselPhotos/Promo40C.webp'
+import plato2 from '../../public/assets/carruselPhotos/YasaitameCamaron.webp'
+import plato3 from '../../public/assets/carruselPhotos/CostillarBBQ.webp'
+import plato4 from '../../public/assets/carruselPhotos/CevicheMaki.webp'
+import plato5 from '../../public/assets/carruselPhotos/CevicheNikkei.webp'
+import plato6 from '../../public/assets/carruselPhotos/MakiPasion.webp'
+import plato7 from '../../public/assets/carruselPhotos/TiraditoSalmon.webp'
+
 
 
 
 const images = [
   {
     src: plato1,
-    alt: 'Acevichado Maki',
-    caption: 'Acevichado Maki',
+    alt: 'Promo 40 Cortes',
+    caption: 'Promo 40 Cortes',
   },
   {
     src: plato2,
-    alt: 'Camarones Tempura',
-    caption: 'Camarones Tempura',
+    alt: 'Yasaitame Camarón',
+    caption: 'Yasaitame Camarón',
   },
   {
     src: plato3,
@@ -31,38 +29,23 @@ const images = [
   },
   {
     src: plato4,
-    alt: 'Alitas Búfalo',
-    caption: 'Alitas Búfalo',
+    alt: 'Ceviche Maki',
+    caption: 'Ceviche Maki',
   },
   {
     src: plato5,
-    alt: 'Furi Maki',
-    caption: 'Furi Maki',
+    alt: 'Ceviche Nikkei',
+    caption: 'Ceviche Nikkei',
   },
   {
     src: plato6,
-    alt: 'Tartar Salmón',
-    caption: 'Tartar de Salmón',
+    alt: 'Maki Pasión',
+    caption: 'Maki Pasión',
   },
   {
     src: plato7,
-    alt: 'Tiradito Salmón',
+    alt: 'Tiradito de Salmón',
     caption: 'Tiradito de Salmón',
-  },
-  {
-    src: plato8,
-    alt: 'Yakimeshi',
-    caption: 'Yakimeshi',
-  },
-  {
-    src: plato9,
-    alt: 'Yakisoba',
-    caption: 'Yakisoba',
-  },
-  {
-    src: plato10,
-    alt: 'Yasaitame de Pollo',
-    caption: 'Yasaitame de Pollo',
   },
 ];
 
