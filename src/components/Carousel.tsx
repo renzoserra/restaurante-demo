@@ -1,30 +1,68 @@
 import '../styles/Carousel.css'
 import { useEffect, useRef, useState } from 'react'
-import plato1 from '../../public/assets/carruselPhotos/plato1.jpg'
-import plato2 from '../../public/assets/carruselPhotos/plato2.jpg'
-import plato3 from '../../public/assets/carruselPhotos/plato3.jpg'
-import plato4 from '../../public/assets/carruselPhotos/plato4.jpg'
+import plato1 from '../../public/assets/carruselPhotos/AcevichadoMaki.webp'
+import plato2 from '../../public/assets/carruselPhotos/CamaronesTempura.webp'
+import plato3 from '../../public/assets/carruselPhotos/Costillarbbq.webp'
+import plato4 from '../../public/assets/carruselPhotos/AlitasBufalo.webp'
+import plato5 from '../../public/assets/carruselPhotos/FuriMaki.webp'
+import plato6 from '../../public/assets/carruselPhotos/TartarSalmon.webp'
+import plato7 from '../../public/assets/carruselPhotos/TiradoSalmon.webp'
+import plato8 from '../../public/assets/carruselPhotos/yakimeshi.webp'
+import plato9 from '../../public/assets/carruselPhotos/YakiSoba.webp'
+import plato10 from '../../public/assets/carruselPhotos/YasaitamePollo.webp'
+
+
 
 const images = [
   {
     src: plato1,
-    alt: 'Tiradito Nikkei',
-    caption: 'Tiradito Nikkei',
+    alt: 'Acevichado Maki',
+    caption: 'Acevichado Maki',
   },
   {
     src: plato2,
-    alt: 'Makis Furai',
-    caption: 'Plato 2',
+    alt: 'Camarones Tempura',
+    caption: 'Camarones Tempura',
   },
   {
     src: plato3,
-    alt: 'Makis Furai',
-    caption: 'Plato 3',
+    alt: 'Costillar BBQ',
+    caption: 'Costillar BBQ',
   },
   {
     src: plato4,
-    alt: 'Makis Furai',
-    caption: 'Plato 4',
+    alt: 'Alitas Búfalo',
+    caption: 'Alitas Búfalo',
+  },
+  {
+    src: plato5,
+    alt: 'Furi Maki',
+    caption: 'Furi Maki',
+  },
+  {
+    src: plato6,
+    alt: 'Tartar Salmón',
+    caption: 'Tartar de Salmón',
+  },
+  {
+    src: plato7,
+    alt: 'Tiradito Salmón',
+    caption: 'Tiradito de Salmón',
+  },
+  {
+    src: plato8,
+    alt: 'Yakimeshi',
+    caption: 'Yakimeshi',
+  },
+  {
+    src: plato9,
+    alt: 'Yakisoba',
+    caption: 'Yakisoba',
+  },
+  {
+    src: plato10,
+    alt: 'Yasaitame de Pollo',
+    caption: 'Yasaitame de Pollo',
   },
 ];
 
