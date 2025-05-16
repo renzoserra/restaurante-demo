@@ -1,11 +1,10 @@
 import '../styles/Header.css';
 import iconFB from '../../public/assets/icon-fb.webp';
-import iconIG from '../../public/assets//icon-ig.webp';
+import iconIG from '../../public/assets/icon-ig.webp';
 import logo from '../../public/assets/logo.webp';
-import carta from '../../public/assets//carta/menu-puka-koi.pdf';
+// import carta from '../../public/assets/carta/menu-puka-koi.pdf'; // Ya no necesario
 
-
-
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
@@ -16,14 +15,11 @@ export default function Header() {
         <p className="descripcion">
           La tradición milenaria de la cocina japonesa se encuentra con la intensidad y el alma de la gastronomía peruana.
         </p>
-        <a
-          href={carta}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn-carta"
-        >
+        
+        <Link to="/menu" className="btn-carta">
           Ver Carta
-        </a>
+        </Link>
+
         <div className="social-icons">
           <a href="https://www.facebook.com/profile.php?id=61574581586995" target="_blank" rel="noreferrer">
             <img src={iconFB} alt="Facebook" className="icono-red" />
