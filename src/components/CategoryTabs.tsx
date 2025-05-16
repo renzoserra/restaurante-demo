@@ -11,13 +11,15 @@ type Category = {
   id: string
   label: string
   icon: string
+  order: number
 }
 
 export default function CategoryTabs({ selected, onSelectCategory }: Props) {
   const [categoryList, setCategoryList] = useState<Category[]>([])
 
   useEffect(() => {
-    setCategoryList(categories as Category[])
+    const sorted = [...(categories as Category[])].sort((a, b) => a.order - b.order)
+    setCategoryList(sorted)
   }, [])
 
   return (

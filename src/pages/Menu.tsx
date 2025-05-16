@@ -3,6 +3,7 @@ import HeaderMenu from '../components/HeaderMenu'
 import SearchBar from '../components/SearchBar'
 import CategoryTabs from '../components/CategoryTabs'
 import ProductCard from '../components/ProductCard'
+import logo from '../../public/assets/logoClear.webp';
 
 import productsJson from '../data/products.json'
 import categories from '../data/categories.json'
@@ -23,24 +24,25 @@ export default function Menu() {
   const [selectedCategory, setSelectedCategory] = useState<string>('nuevos-productos')
   const [searchTerm, setSearchTerm] = useState<string>('')
 
-  useEffect(() => {
-    // Normalizar los datos cargados
-    const loaded = productsJson.map(p => ({
-      ...p,
-      category: p.category.trim().toLowerCase().replace(/\s+/g, '-').replace(/\//g, '-'),
-      image: p.image || '/assets/images/placeholder.webp'
-    }))
+useEffect(() => {
+  const loaded = productsJson.map(p => ({
+    ...p,
+    category: p.category.trim().toLowerCase().replace(/\s+/g, '-').replace(/\//g, '-'),
+image: p.image?.trim() ? p.image : '/images/logoClear.webp'
+  }))
 
-    setProducts(loaded)
-  }, [])
+  setProducts(loaded)
+}, [])
 
-const groupedProducts = categories.map(category => ({
-  ...category,
-  products: products.filter(p =>
-    p.category === category.id &&
-    p.name.toLowerCase().includes(searchTerm.toLowerCase())
-  )
-}))
+const groupedProducts = [...categories]
+  .sort((a, b) => a.order - b.order)
+  .map(category => ({
+    ...category,
+    products: products.filter(p =>
+      p.category === category.id &&
+      p.name.toLowerCase().includes(searchTerm.toLowerCase())
+    )
+  }))
 
   return (
     <>
@@ -49,13 +51,19 @@ const groupedProducts = categories.map(category => ({
       <main className="menu-container">
         <SearchBar onSearch={(query) => setSearchTerm(query)} />
 
-        <CategoryTabs
-          selected={selectedCategory}
-          onSelectCategory={(catId) => {
-            setSelectedCategory(catId)
-            setSearchTerm('')
-          }}
-        />
+<CategoryTabs
+  selected={selectedCategory}
+  onSelectCategory={(catId) => {
+    setSelectedCategory(catId)
+    setSearchTerm('')
+
+    // Scroll suave a la categoría correspondiente
+    const target = document.getElementById(catId)
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
+  }}
+/>
 
 <section className="product-grid">
   {groupedProducts.map(category =>
