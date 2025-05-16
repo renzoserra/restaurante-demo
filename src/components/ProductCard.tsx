@@ -23,7 +23,7 @@ const handleImageError = (e: React.SyntheticEvent<HTMLImageElement>) => {
       <div className="info">
         <h3>{name}</h3>
         {description && <p className="description">{description}</p>}
-        <p className="price">${price.toLocaleString()}</p>
+<p className="price">${price.toLocaleString('es-CL')}</p>
       </div>
       <div className="image-container">
         <img src={image} alt={name} onError={handleImageError} />

@@ -6,9 +6,19 @@ export default function HeaderMenu() {
     <header className="header-menu">
       {/* IZQUIERDA: Dirección */}
       <div className="header-left">
-        <p>
-          <i className="fas fa-map-marker-alt"></i> Manuel Rodríguez 511, Los Andes
-        </p>
+<p>
+  <i className="fas fa-map-marker-alt"></i>{' '}
+  <a
+    href="https://www.google.com/maps?q=Manuel+Rodríguez+511,+Los+Andes"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="header-link"
+  >
+    Manuel Rodríguez 511, Los Andes
+  </a>
+</p>
+
+        
       </div>
 
       {/* CENTRO: Logo + nombre */}
@@ -19,7 +29,7 @@ export default function HeaderMenu() {
 
       {/* DERECHA: Redes sociales */}
       <div className="header-right">
-        <p>Nuestros canales de contacto</p>
+        <p>Nuestras redes sociales</p>
         <div className="social-icons">
           <a
             href="https://www.instagram.com/pukakoi.cl/"

@@ -48,22 +48,24 @@ const groupedProducts = [...categories]
     <>
       <HeaderMenu />
 
-      <main className="menu-container">
-        <SearchBar onSearch={(query) => setSearchTerm(query)} />
+<main className="menu-container">
+  <div className="search-bar-sticky">
+    <SearchBar onSearch={(query) => setSearchTerm(query)} />
+  </div>
 
-<CategoryTabs
-  selected={selectedCategory}
-  onSelectCategory={(catId) => {
-    setSelectedCategory(catId)
-    setSearchTerm('')
-
-    // Scroll suave a la categoría correspondiente
-    const target = document.getElementById(catId)
-    if (target) {
-      target.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    }
-  }}
-/>
+  <div className="category-tabs-sticky">
+    <CategoryTabs
+      selected={selectedCategory}
+      onSelectCategory={(catId) => {
+        setSelectedCategory(catId)
+        setSearchTerm('')
+        const target = document.getElementById(catId)
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        }
+      }}
+    />
+  </div>
 
 <section className="product-grid">
   {groupedProducts.map(category =>

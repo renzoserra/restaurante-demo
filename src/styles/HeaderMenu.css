@@ -38,9 +38,9 @@
 }
 
 .header-center img {
-  width: 70px;
+  width: 180px;
   height: auto;
-  max-height: 70px;
+  max-height: 180px;
   border-radius: 50%;
   object-fit: contain;
 }
@@ -103,8 +103,8 @@
   }
 
   .header-center img {
-    width: 50px;
-    max-height: 50px;
+    width: 180px;
+    max-height: 180px;
   }
 }
 .products-grid {
@@ -112,4 +112,13 @@
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 1rem;
   padding: 2rem;
+}
+
+.header-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header-link:hover {
+  text-decoration: underline;
 }

@@ -25,4 +25,23 @@
     grid-template-columns: 1fr;
   }
 }
-  
+
+/* Para fijar la barra de búsqueda */
+.search-bar-sticky {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+  padding: 1rem 0;
+}
+
+/* Para fijar la barra de categorías */
+.category-tabs-sticky {
+  position: sticky;
+  top: 4.8rem; /* ajusta esto si la barra de búsqueda cambia de altura */
+  background-color: white;
+  z-index: 999;
+  padding: 1rem 0; /* da suficiente espacio arriba y abajo */
+  min-height: 70px; /* o el tamaño de tus íconos si son más grandes */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* mejora visual */
+}
