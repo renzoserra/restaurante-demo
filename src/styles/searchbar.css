@@ -1,0 +1,26 @@
+.search-section {
+    padding: 20px 0;
+    background-color: #fff;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 25px;
+    padding: 10px 15px;
+  }
+  
+  .search-bar i {
+    margin-right: 10px;
+    color: #777;
+  }
+  
+  .search-bar input {
+    border: none;
+    background: transparent;
+    outline: none;
+    flex-grow: 1;
+    font-size: 1em;
+  }
+  

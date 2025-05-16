@@ -1,0 +1,610 @@
+[
+  {
+    "id": "1d8be543",
+    "name": "Gyosas (6 unidades)",
+    "price": 6000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "gyosas"
+  },
+  {
+    "id": "fe11687f",
+    "name": "Gyosas (12 unidades)",
+    "price": 11000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "gyosas"
+  },
+  {
+    "id": "ce37bfd1",
+    "name": "Tiradito Atún Acevichado",
+    "price": 10000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "tiraditos"
+  },
+  {
+    "id": "adcd5241",
+    "name": "Tiradito Pulpo al Olivo",
+    "price": 10000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "tiraditos"
+  },
+  {
+    "id": "e2fc1117",
+    "name": "Tiradito Pescado Blanco al Ají Amarillo",
+    "price": 10000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "tiraditos"
+  },
+  {
+    "id": "e7ee5199",
+    "name": "Ceviche Nikkei",
+    "price": 13500,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "ceviches"
+  },
+  {
+    "id": "1a8c5da7",
+    "name": "Temaki Pescado Blanco & Camarón Furay",
+    "price": 12000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "temakis"
+  },
+  {
+    "id": "0a9fdf24",
+    "name": "Temaki Salmón Nikkei",
+    "price": 12000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "temakis"
+  },
+  {
+    "id": "22198da9",
+    "name": "Sashimi de Salmón (4 unidades)",
+    "price": 7000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "sashimi"
+  },
+  {
+    "id": "cb398fea",
+    "name": "Sashimi de Atún Tataki (4 unidades)",
+    "price": 6500,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "sashimi"
+  },
+  {
+    "id": "b519abd6",
+    "name": "Sashimi de Camarón (4 unidades)",
+    "price": 6000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "sashimi"
+  },
+  {
+    "id": "31084771",
+    "name": "Sashimi de Pulpo (4 unidades)",
+    "price": 6500,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "sashimi"
+  },
+  {
+    "id": "be4df5ee",
+    "name": "Sashimi de Pescado Blanco (4 unidades)",
+    "price": 4500,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "sashimi"
+  },
+  {
+    "id": "ba48251d",
+    "name": "Tartar de Salmón",
+    "price": 7700,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "tartar"
+  },
+  {
+    "id": "fc59e83a",
+    "name": "Tartar de Atún",
+    "price": 7000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "tartar"
+  },
+  {
+    "id": "c1dc01dd",
+    "name": "Hosomaki de Salmón",
+    "price": 5000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "hosomaki"
+  },
+  {
+    "id": "bd200465",
+    "name": "Hosomaki de Atún",
+    "price": 5000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "hosomaki"
+  },
+  {
+    "id": "94f2a0c6",
+    "name": "Hosomaki de Camarón",
+    "price": 5000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "hosomaki"
+  },
+  {
+    "id": "23fc3312",
+    "name": "Hosomaki de Pulpo",
+    "price": 5000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "hosomaki"
+  },
+  {
+    "id": "a34ddfc2",
+    "name": "Gunkan de Pulpo Acevichado",
+    "price": 3000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "gunkan"
+  },
+  {
+    "id": "b1b3681a",
+    "name": "Gunkan de Salmón Maracuyá",
+    "price": 3000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "gunkan"
+  },
+  {
+    "id": "7780b89f",
+    "name": "Gunkan de Atún Acevichado",
+    "price": 3000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "gunkan"
+  },
+  {
+    "id": "c475cd5b",
+    "name": "Maki Tempura",
+    "price": 7000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "urumaki"
+  },
+  {
+    "id": "909389f8",
+    "name": "Maki Pollo",
+    "price": 7000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "urumaki"
+  },
+  {
+    "id": "2c55ff32",
+    "name": "Maki Furai",
+    "price": 7800,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "urumaki"
+  },
+  {
+    "id": "4f0afa15",
+    "name": "Vegui Maki",
+    "price": 7200,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "urumaki"
+  },
+  {
+    "id": "5f09cb65",
+    "name": "Maki Pasión",
+    "price": 8000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "urumaki"
+  },
+  {
+    "id": "7b9f24c5",
+    "name": "Maki Pulpo al Olivo",
+    "price": 10990,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "urumaki"
+  },
+  {
+    "id": "cff7dc32",
+    "name": "Maki Pulpo a la Parrilla",
+    "price": 10990,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "urumaki"
+  },
+  {
+    "id": "83a1af5f",
+    "name": "Saltado Maki",
+    "price": 10990,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "urumaki"
+  },
+  {
+    "id": "b5f2327d",
+    "name": "Ceviche Maki",
+    "price": 10990,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "urumaki"
+  },
+  {
+    "id": "75be7643",
+    "name": "Acevichado Maki",
+    "price": 7500,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "urumaki"
+  },
+  {
+    "id": "602c1b7e",
+    "name": "Maguro Maki",
+    "price": 7200,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "urumaki"
+  },
+  {
+    "id": "d2d42bb3",
+    "name": "Volcano Maki",
+    "price": 8000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "urumaki"
+  },
+  {
+    "id": "52417dbe",
+    "name": "Torimaki",
+    "price": 7000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "urumaki"
+  },
+  {
+    "id": "1e694a9d",
+    "name": "Yasaitame Camarón",
+    "price": 13500,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "yasaitame"
+  },
+  {
+    "id": "7d2c5415",
+    "name": "Yasaitame Pescado",
+    "price": 13000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "yasaitame"
+  },
+  {
+    "id": "4975317d",
+    "name": "Yaki Soba Pollo",
+    "price": 12500,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "yakisoba"
+  },
+  {
+    "id": "eb189a35",
+    "name": "Yaki Soba Carne",
+    "price": 13000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "yakisoba"
+  },
+  {
+    "id": "99cc366a",
+    "name": "Yaki Soba Camarón",
+    "price": 10000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "yakisoba"
+  },
+  {
+    "id": "b0ea3bc9",
+    "name": "Yakimeshi Pollo",
+    "price": 9000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "yakimeshi"
+  },
+  {
+    "id": "3ac3ee05",
+    "name": "Yakimeshi Carne",
+    "price": 9500,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "yakimeshi"
+  },
+  {
+    "id": "6071cbbd",
+    "name": "Ramen Pollo",
+    "price": 9000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "ramen"
+  },
+  {
+    "id": "68bce158",
+    "name": "Ramen Carne",
+    "price": 9500,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "ramen"
+  },
+  {
+    "id": "85fa8515",
+    "name": "Ramen Camarón",
+    "price": 10000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "ramen"
+  },
+  {
+    "id": "c96433b8",
+    "name": "Poker Bowl Pollo",
+    "price": 7000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "pokerbowls"
+  },
+  {
+    "id": "6b52308b",
+    "name": "Poker Bowl Carne",
+    "price": 8000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "pokerbowls"
+  },
+  {
+    "id": "eb699297",
+    "name": "Poker Bowl Ebi (Camarón)",
+    "price": 8500,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "pokerbowls"
+  },
+  {
+    "id": "ec92e10a",
+    "name": "Poker Bowl Salmón Furay",
+    "price": 8500,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "pokerbowls"
+  },
+  {
+    "id": "b65b44d3",
+    "name": "Tempura de Camarón (5 unidades)",
+    "price": 7500,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "tempuras"
+  },
+  {
+    "id": "a8f1c7d5",
+    "name": "Tempura de Pescado Blanco (5 unidades)",
+    "price": 6000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "tempuras"
+  },
+  {
+    "id": "6e7a0294",
+    "name": "Chicken Teriyaki",
+    "price": 8000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "pollo"
+  },
+  {
+    "id": "b9e1af51",
+    "name": "Chicken Katsu",
+    "price": 8000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "pollo"
+  },
+  {
+    "id": "ab065249",
+    "name": "Alitas Acevichadas",
+    "price": 8500,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "alitas"
+  },
+  {
+    "id": "1bb04ac7",
+    "name": "Alitas Búfalo",
+    "price": 8200,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "alitas"
+  },
+  {
+    "id": "22b2e0f0",
+    "name": "Alitas BBQ",
+    "price": 8000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "alitas"
+  },
+  {
+    "id": "d390c91a",
+    "name": "Promo 1 – 24 cortes",
+    "price": 15000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "promos"
+  },
+  {
+    "id": "490dbf2b",
+    "name": "Promo 2 – 32 cortes",
+    "price": 18000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "promos"
+  },
+  {
+    "id": "ada9da8a",
+    "name": "Promo 3 – 40 cortes",
+    "price": 22000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "promos"
+  },
+  {
+    "id": "739c37c4",
+    "name": "Piqueo Puka Koi",
+    "price": 35000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "promos"
+  },
+  {
+    "id": "f325d67c",
+    "name": "Jugo de Maracuyá",
+    "price": 4000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "bebida-sa"
+  },
+  {
+    "id": "707ce790",
+    "name": "Jugo de Mango",
+    "price": 4000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "bebida-sa"
+  },
+  {
+    "id": "3ab79a97",
+    "name": "Jugo de Frambuesa",
+    "price": 4000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "bebida-sa"
+  },
+  {
+    "id": "b0a148ca",
+    "name": "Jugo de Piña",
+    "price": 4000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "bebida-sa"
+  },
+  {
+    "id": "0427a85f",
+    "name": "Jugo de Chirimoya",
+    "price": 4000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "bebida-sa"
+  },
+  {
+    "id": "682e745c",
+    "name": "Limonada",
+    "price": 4000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "bebida-sa"
+  },
+  {
+    "id": "ab470dc6",
+    "name": "Té",
+    "price": 3000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "bebida-sa"
+  },
+  {
+    "id": "0773c81b",
+    "name": "Expreso",
+    "price": 3000,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "bebida-sa"
+  },
+  {
+    "id": "f536b752",
+    "name": "Cortado",
+    "price": 3900,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "bebida-sa"
+  },
+  {
+    "id": "21a8a663",
+    "name": "Expreso Doble",
+    "price": 4500,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "bebida-sa"
+  },
+  {
+    "id": "4312766e",
+    "name": "Piscola",
+    "price": 5900,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "bebida-ca"
+  },
+  {
+    "id": "01af8d8d",
+    "name": "Aperol",
+    "price": 7990,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "bebida-ca"
+  },
+  {
+    "id": "a8526234",
+    "name": "Ron Cola",
+    "price": 5900,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "bebida-ca"
+  },
+  {
+    "id": "49ccb589",
+    "name": "Gin Tonic",
+    "price": 6900,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "bebida-ca"
+  },
+  {
+    "id": "f48dd307",
+    "name": "Caipiriña",
+    "price": 6900,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "bebida-ca"
+  },
+  {
+    "id": "114e4a39",
+    "name": "Mojito",
+    "price": 6900,
+    "description": "",
+    "image": "/assets/images/placeholder.webp",
+    "category": "bebida-ca"
+  }
+]
