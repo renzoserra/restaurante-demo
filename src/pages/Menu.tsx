@@ -56,14 +56,22 @@ const groupedProducts = [...categories]
   <div className="category-tabs-sticky">
     <CategoryTabs
       selected={selectedCategory}
-      onSelectCategory={(catId) => {
-        setSelectedCategory(catId)
-        setSearchTerm('')
-        const target = document.getElementById(catId)
-        if (target) {
-          target.scrollIntoView({ behavior: 'smooth', block: 'start' })
-        }
-      }}
+onSelectCategory={(catId) => {
+  setSelectedCategory(catId)
+  setSearchTerm('')
+  const target = document.getElementById(catId)
+  if (target) {
+    const headerOffset = 280 // altura combinada estimada del header fijo
+    const elementPosition = target.getBoundingClientRect().top + window.pageYOffset
+    const offsetPosition = elementPosition - headerOffset
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth',
+    })
+  }
+}}
+
     />
   </div>
 

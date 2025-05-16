@@ -7,6 +7,7 @@
   }
 
   .category-title {
+
   font-size: 1.5rem;
   margin: 2rem 0 1rem;
   border-bottom: 1px solid #ccc;
@@ -38,10 +39,13 @@
 /* Para fijar la barra de categorías */
 .category-tabs-sticky {
   position: sticky;
-  top: 4.8rem; /* ajusta esto si la barra de búsqueda cambia de altura */
+  top: 5rem; /* ajusta esto si la barra de búsqueda cambia de altura */
   background-color: white;
   z-index: 999;
   padding: 1rem 0; /* da suficiente espacio arriba y abajo */
   min-height: 70px; /* o el tamaño de tus íconos si son más grandes */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* mejora visual */
+}
+.category-group {
+  scroll-margin-top: 180px; /* ajusta según el total de altura de header + search + tabs */
 }
